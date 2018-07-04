@@ -78,7 +78,7 @@ class Solution:
         q.put(tree)
         while not q.empty():
             a = q.get()
-            if a :
+            if a:
                 print(a.val, end=',')
                 q.put(a.left)
                 q.put(a.right)

@@ -93,3 +93,8 @@ class ExamRoom:
 # obj = ExamRoom(N)
 # param_1 = obj.seat()
 # obj.leave(p)
+if __name__ == '__main__':
+    sol = ExamRoom()
+    list1 = ["ExamRoom","seat","seat","seat","seat","leave","seat"]
+    p = [[10],[],[],[],[],[4],[]]
+    # 输出[null,0,9,4,2,null,5]
